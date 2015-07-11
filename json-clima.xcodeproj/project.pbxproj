@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681E99C01B5163080018A685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E99BF1B5163080018A685 /* main.m */; };
+		681E99C31B5163080018A685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E99C21B5163080018A685 /* AppDelegate.m */; };
+		681E99C61B5163080018A685 /* json_clima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 681E99C41B5163080018A685 /* json_clima.xcdatamodeld */; };
+		681E99C91B5163080018A685 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E99C81B5163080018A685 /* Start.m */; };
+		681E99CC1B5163090018A685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681E99CA1B5163080018A685 /* Main.storyboard */; };
+		681E99CE1B5163090018A685 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681E99CD1B5163090018A685 /* Images.xcassets */; };
+		681E99D11B5163090018A685 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681E99CF1B5163090018A685 /* LaunchScreen.xib */; };
+		681E99DD1B5163090018A685 /* json_climaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E99DC1B5163090018A685 /* json_climaTests.m */; };
+		681E99E81B5163B30018A685 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E99E71B5163B30018A685 /* Declarations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681E99D71B5163090018A685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681E99B21B5163080018A685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681E99B91B5163080018A685;
+			remoteInfo = "json-clima";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681E99BA1B5163080018A685 /* json-clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json-clima.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E99BE1B5163080018A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681E99BF1B5163080018A685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681E99C11B5163080018A685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681E99C21B5163080018A685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681E99C51B5163080018A685 /* json_clima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = json_clima.xcdatamodel; sourceTree = "<group>"; };
+		681E99C71B5163080018A685 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		681E99C81B5163080018A685 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		681E99CB1B5163090018A685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681E99CD1B5163090018A685 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		681E99D01B5163090018A685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		681E99D61B5163090018A685 /* json-climaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "json-climaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681E99DB1B5163090018A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681E99DC1B5163090018A685 /* json_climaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = json_climaTests.m; sourceTree = "<group>"; };
+		681E99E61B5163B30018A685 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		681E99E71B5163B30018A685 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681E99B71B5163080018A685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E99D31B5163090018A685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681E99B11B5163080018A685 = {
+			isa = PBXGroup;
+			children = (
+				681E99BC1B5163080018A685 /* json-clima */,
+				681E99D91B5163090018A685 /* json-climaTests */,
+				681E99BB1B5163080018A685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681E99BB1B5163080018A685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681E99BA1B5163080018A685 /* json-clima.app */,
+				681E99D61B5163090018A685 /* json-climaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681E99BC1B5163080018A685 /* json-clima */ = {
+			isa = PBXGroup;
+			children = (
+				681E99C11B5163080018A685 /* AppDelegate.h */,
+				681E99C21B5163080018A685 /* AppDelegate.m */,
+				681E99C71B5163080018A685 /* Start.h */,
+				681E99C81B5163080018A685 /* Start.m */,
+				681E99CA1B5163080018A685 /* Main.storyboard */,
+				681E99CD1B5163090018A685 /* Images.xcassets */,
+				681E99CF1B5163090018A685 /* LaunchScreen.xib */,
+				681E99C41B5163080018A685 /* json_clima.xcdatamodeld */,
+				681E99BD1B5163080018A685 /* Supporting Files */,
+				681E99E61B5163B30018A685 /* Declarations.h */,
+				681E99E71B5163B30018A685 /* Declarations.m */,
+			);
+			path = "json-clima";
+			sourceTree = "<group>";
+		};
+		681E99BD1B5163080018A685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681E99BE1B5163080018A685 /* Info.plist */,
+				681E99BF1B5163080018A685 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681E99D91B5163090018A685 /* json-climaTests */ = {
+			isa = PBXGroup;
+			children = (
+				681E99DC1B5163090018A685 /* json_climaTests.m */,
+				681E99DA1B5163090018A685 /* Supporting Files */,
+			);
+			path = "json-climaTests";
+			sourceTree = "<group>";
+		};
+		681E99DA1B5163090018A685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681E99DB1B5163090018A685 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681E99B91B5163080018A685 /* json-clima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681E99E01B5163090018A685 /* Build configuration list for PBXNativeTarget "json-clima" */;
+			buildPhases = (
+				681E99B61B5163080018A685 /* Sources */,
+				681E99B71B5163080018A685 /* Frameworks */,
+				681E99B81B5163080018A685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "json-clima";
+			productName = "json-clima";
+			productReference = 681E99BA1B5163080018A685 /* json-clima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681E99D51B5163090018A685 /* json-climaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681E99E31B5163090018A685 /* Build configuration list for PBXNativeTarget "json-climaTests" */;
+			buildPhases = (
+				681E99D21B5163090018A685 /* Sources */,
+				681E99D31B5163090018A685 /* Frameworks */,
+				681E99D41B5163090018A685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681E99D81B5163090018A685 /* PBXTargetDependency */,
+			);
+			name = "json-climaTests";
+			productName = "json-climaTests";
+			productReference = 681E99D61B5163090018A685 /* json-climaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681E99B21B5163080018A685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = fuentess;
+				TargetAttributes = {
+					681E99B91B5163080018A685 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					681E99D51B5163090018A685 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 681E99B91B5163080018A685;
+					};
+				};
+			};
+			buildConfigurationList = 681E99B51B5163080018A685 /* Build configuration list for PBXProject "json-clima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681E99B11B5163080018A685;
+			productRefGroup = 681E99BB1B5163080018A685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681E99B91B5163080018A685 /* json-clima */,
+				681E99D51B5163090018A685 /* json-climaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681E99B81B5163080018A685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E99CC1B5163090018A685 /* Main.storyboard in Resources */,
+				681E99D11B5163090018A685 /* LaunchScreen.xib in Resources */,
+				681E99CE1B5163090018A685 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E99D41B5163090018A685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681E99B61B5163080018A685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E99C31B5163080018A685 /* AppDelegate.m in Sources */,
+				681E99C01B5163080018A685 /* main.m in Sources */,
+				681E99C91B5163080018A685 /* Start.m in Sources */,
+				681E99C61B5163080018A685 /* json_clima.xcdatamodeld in Sources */,
+				681E99E81B5163B30018A685 /* Declarations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681E99D21B5163090018A685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681E99DD1B5163090018A685 /* json_climaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681E99D81B5163090018A685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681E99B91B5163080018A685 /* json-clima */;
+			targetProxy = 681E99D71B5163090018A685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681E99CA1B5163080018A685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681E99CB1B5163090018A685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681E99CF1B5163090018A685 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681E99D01B5163090018A685 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681E99DE1B5163090018A685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		681E99DF1B5163090018A685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681E99E11B5163090018A685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "json-clima/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		681E99E21B5163090018A685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "json-clima/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		681E99E41B5163090018A685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "json-climaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/json-clima.app/json-clima";
+			};
+			name = Debug;
+		};
+		681E99E51B5163090018A685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "json-climaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/json-clima.app/json-clima";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681E99B51B5163080018A685 /* Build configuration list for PBXProject "json-clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E99DE1B5163090018A685 /* Debug */,
+				681E99DF1B5163090018A685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681E99E01B5163090018A685 /* Build configuration list for PBXNativeTarget "json-clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E99E11B5163090018A685 /* Debug */,
+				681E99E21B5163090018A685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		681E99E31B5163090018A685 /* Build configuration list for PBXNativeTarget "json-climaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681E99E41B5163090018A685 /* Debug */,
+				681E99E51B5163090018A685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		681E99C41B5163080018A685 /* json_clima.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				681E99C51B5163080018A685 /* json_clima.xcdatamodel */,
+			);
+			currentVersion = 681E99C51B5163080018A685 /* json_clima.xcdatamodel */;
+			path = json_clima.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 681E99B21B5163080018A685 /* Project object */;
+}
